@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reserviaTEST.css" />
+    <script src="https://kit.fontawesome.com/ad959916f0.js" crossorigin="anonymous"></script>
+    
+    <title>Réservia - Accueil</title>
+
+
+  
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               
+                <a href=#>
+                    <img src="images/logo/Reservia.svg" alt="Réservia">
+                </a>
+            </div>
+            <div class="Hebergements">
+                
+                <a href="#bloc-hebergements">
+                    <p>Hébergements</p>
+                </a>
+            </div>
+            <div class="Activites">
+                
+                <a href="#bloc-activites">
+                    <p>Activités</p>
+                </a>
+            </div>
+            <div class="Inscription">
+                
+                <a href="#">
+                    <p>S'inscrire</p>
+                </a>
+            </div>
+        </nav>
+        <Aside class=Aside-header>
+            <div class="titre-header">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div class="city-selector">
+                    <div class="mapIcon"><i class="fas fa-map-marker-alt"></i></div>
+                    <input class="inputCity" type="text" placeholder="Marseille, France" name="search">
+                    <button class="btnRechercher" name="Rechercher" type="submit" value="Rechercher">Rechercher</button>
+                    <button class="btnIcon"><i class="fas fa-search" style="font-size: 18px;"></i></button>
+            </div>
+
+            <div class="filters">
+                <h3>Filtres</h3> 
+                <div class="Filters">
+                    <div class="Economique"><i class="fas fa-money-bill-wave"></i><button class="btn" onclick="filterSelection('economique')">Economique</button></div>
+                    <div class="Familial"><i class="fas fa-child"></i><button class="btn" onclick="filterSelection('familial')">Familial</button></div>
+                    <div class="Romantique"><i class="fas fa-heart"></i><button class="btn" onclick="filterSelection('romantique')">Romantique</button></div>
+                    <div class="Animaux"><i class="fas fa-dog"></i><button class="btn" onclick="filterSelection('animaux-autorises')">Animaux autorisés</button></div>
+                </div>
+
+            </div>
+            <div class="information-header">
+                <i class="fas fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
+
+
+
+
+
+                <section id="bloc-hebergements">
+        <div class="bloc-hebergement">
+            
+            <h2>Hébergements à Marseille</h2>
+            <div class="results-hebergements">
+                
+                <a href="#">
+                    <figure class="Auberge-la-cannebiere">
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebi&egrave;re">
+                        <figcaption>
+                            <h3>Auberge la Cannebi&egrave;re</h3>
+                            
+                            <p>Nuit à partir de <i>25</i>&euro;</p>
+                            
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Hotel-du-port">
+                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="H&ocirc;tel du port">
+                        <figcaption>
+                            <h3>H&ocirc;tel du port</h3>
+                            <p>Nuit &agrave; partir de <i>52</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #0065FC"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Hotel-Les-mouettes">
+                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="H&ocirc;tel Les mouettes">
+                        <figcaption>
+                            <h3>H&ocirc;tel Les mouettes</h3>
+                            <p>Nuit &agrave; partir de <i>76</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Hotel-de-la-mer">
+                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="H&ocirc;tel de la mer">
+                        <figcaption>
+                            <h3>H&ocirc;tel de la mer</h3>
+                            <p>Nuit &agrave; partir de <i>46</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #F2F2F2"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Auberge-Le-Panier">
+                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
+                        <figcaption>
+                            <h3>Auberge Le Panier</h3>
+                            <p>Nuit &agrave; partir de <i>23</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Hotel-chez-Amina">
+                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="H&ocirc;tel chez Amina">
+                        <figcaption>
+                            <h3>H&ocirc;tel chez Amina</h3>
+                            <p>Nuit &agrave; partir de <i>96</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #0065FC"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+
+            </div>
+            <div class="btnAfficher-plus">
+                <button name="Afficher plus" type="submit" value="">Afficher plus</button>
+            </div>
+        </div>
+
+
+
+        <aside class="Aside-hebergement">
+            <div class="hebergement-populaires-title">
+                <h2>Les plus populaires</h2>
+                
+                <i class="fas fa-chart-line" style="font-size: 20px"></i>
+            </div>
+
+            <div class="results-populaires">
+                <a href="#">
+                    <figure class="Hotel-Le-Soleil-du-matin">
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="H&ocirc;tel Le soleil du matin">
+                        <figcaption>
+                            <h3>H&ocirc;tel Le soleil du matin</h3>
+                            <p>Nuit &agrave; partir de <i>128</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #0065FC"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Au-coeur-de-l-eau-Chambres-d-hotes">
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au c&oelig;ur de l'eau </br>Chambres d'h&ocirc;tes">
+                        <figcaption>
+                            <h3>Au c&oelig;ur de l'eau <br>Chambres d'h&ocirc;tes</h3>
+                            <p>Nuit &agrave; partir de <i>71</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+
+                <a href="#">
+                    <figure class="Hotel-Tout-bleu-et-Blanc">
+                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="H&ocirc;tel Tout bleu et Blanc">
+                        <figcaption>
+                            <h3>H&ocirc;tel Tout bleu et Blanc</h3>
+                            <p>Nuit &agrave; partir de <i>68</i>&euro;</p>
+                            <i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star" style="color: #0065FC"></i><i class="fas fa-star"
+                                style="color: #F2F2F2"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </aside>
+    </section>
