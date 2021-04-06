@@ -696,3 +696,284 @@ footer div {
 }
 
 
+/* Small devices (portrait tablets and large phones, less than 600px) */
+
+@media only screen and (max-width: 767px) {
+    body,
+    header,
+    #bloc-hebergements,
+    #bloc-activites {
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    h1,
+    h2 {
+        font-size: 20px;
+    }
+    h3,
+    h4,
+    .btnAfficher-plus button {
+        font-size: 16px;
+        margin: 0.5em 0;
+    }
+    nav a {
+        font-size: 16px;
+        height: auto;
+        width: 100%;
+        padding: 1em 0;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 70% 30%;
+        align-items: center;
+        height: 9em;
+        margin: 0;
+        padding-top: 0;
+        width: 100%;
+    }
+    .logo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        height: auto;
+        width: 100%;
+    }
+    .logo img {
+        padding-right: 3em;
+        /* doesn't on the parent box because its a link box */
+    }
+    .Hebergements {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        height: auto;
+        width: 100%;
+        border-bottom: 3px solid #0065FC;
+    }
+    .Activites {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        height: auto;
+        width: 100%;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    .Activites:hover {
+        border-top: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+    .Activites:hover,
+    .Hebergements:hover {
+        border-top: none;
+    }
+    .Inscription {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        padding-left: 2em;
+        height: auto;
+    }
+    .titre-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: auto;
+        padding-top: 1em;
+        padding-left: 1.5em;
+        line-height: 25px;
+        width: 90%;
+    }
+    .titre-header p {
+        font-size: 15px;
+        line-height: 5px;
+        margin: 0;
+    }
+    .city-selector {
+        width: 85%;
+        height: auto;
+        margin: 0 0 0 2em;
+        /* center the form */
+        padding: 2em 0;
+    }
+    .form {
+        height: 3.2em;
+    }
+    .mapIcon {
+        padding: 0.5em 1em 0 1em;
+        /* center the icon */
+        font-size: 18px;
+    }
+    .inputCity {
+        font-size: 16px;
+        width: 100%;
+    }
+    .btnRechercher {
+        display: none;
+        /* replacing "Rechercher" by an icon */
+    }
+    .btnIcon {
+        display: initial;
+        /* make icon great again */
+        background-color: #0065FC;
+        border-radius: 12px;
+        /* make rounded shape on specific corners */
+        height: auto;
+        color: white;
+        padding: 0 1.25em 0 1.25em;
+        /* center the icon */
+    }
+    .filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 1.5em;
+    }
+    .Filters {
+        display: flex;
+        justify-content: flex-start;
+        align-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+    .Filters div {
+        border-right: 2px solid lightgrey;
+        border-top: 2px solid lightgrey;
+        border-bottom: 2px solid lightgrey;
+        margin-bottom: 0.75em;
+        font-size: 14px;
+    }
+    .filters i {
+        font-size: 18px;
+    }
+    .Filters button {
+        font-size: 15px;
+    }
+    .information-header i {
+        font-size: 12px;
+        margin: 1em 1em 0 0;
+    }
+    .information-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 1.5em;
+        font-size: 16px;
+    }
+    #bloc-hebergements {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .Aside-hebergement,
+    .results-populaires {
+        width: 100%;
+        height: 42em;
+    }
+    .Aside-hebergement {
+        border-radius: 0;
+        margin: 0;
+        padding-bottom: 2em;
+    }
+    .results-populaires {
+        justify-content: space-between;
+    }
+    .hebergement-populaires-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        padding: 0 1em;
+    }
+    .results-populaires a,
+    .results-activites a {
+        width: 90%;
+    }
+    .results-populaires {
+        justify-content: space-around;
+        padding-bottom: 2em;
+        height: 100%;
+    }
+    .results-populaires figure {
+        height: 10em;
+    }
+    .results-populaires img {
+        width: 70%;
+    }
+    .results-populaires figcaption {
+        line-height: 14px;
+        padding: 1em 2em;
+    }
+    .bloc-hebergement {
+        padding: 0;
+        width: 90%;
+        background-color: white;
+    }
+    .results-hebergements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    .results-hebergements figure {
+        height: 15em;
+        width: 95%;
+    }
+    .results-hebergements figcaption {
+        height: 5em;
+    }
+    .results-hebergements p {
+        font-size: 14px;
+    }
+    #bloc-activites {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 2em 0;
+    }
+    #bloc-activites h2 {
+        align-self: flex-start;
+        padding-left: 1em;
+    }
+    .results-activites {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .results-activites figure {
+        height: 15em;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 5px 5px lightgrey;
+    }
+    .results-activites figcaption {
+        height: 5em;
+        font-size: 14px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 2em 0;
+        height: auto;
+        width: 100%;
+    }
+    footer div {
+        margin: 0;
+        width: 100%;
+    }
+    footer ul {
+        padding: 0 2em;
+        font-size: 14px;
+    }
+}
